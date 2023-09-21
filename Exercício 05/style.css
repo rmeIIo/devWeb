@@ -34,3 +34,11 @@ th {
     color: #FFF;
     background: darkcyan;
 }
+
+.next-btns {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
