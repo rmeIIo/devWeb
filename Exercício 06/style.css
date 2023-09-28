@@ -4,14 +4,14 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #f0f0f0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .boxFormulario {
     background-color: #FFF;
     overflow: hidden;
-    min-height: 89vh;
+    min-height: 70vh;
     margin: 30px;
     border-radius: 12px;
 }
@@ -30,16 +30,11 @@ body {
 }
 
 .forms {
-    border: 1px solid red;
     margin-left: 50px;
     font-weight: bold;
     display: flex;
     padding: 10px;
-}
-
-.formGroup {
-    display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -51,12 +46,24 @@ body {
     margin-bottom: 5px;
     border-radius: 8px;
     border: 1px solid lightgray;
+    vertical-align: middle;
 }
 
 .btnsGroups {
     float: right;
+    margin-top: 10vh;
+}
+
+.btnLimpar, .btnCadastrar {
+    border: none;
+    padding: 10px;
+    color: #FFF;
 }
 
 .btnLimpar {
-    background: yellow;
+    background: #f5b049;
+}
+
+.btnCadastrar {
+    background: #017aff;
 }
