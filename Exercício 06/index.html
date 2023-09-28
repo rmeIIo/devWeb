@@ -9,40 +9,61 @@
 <body>
     <main class="container">
         <section class="boxFormulario">
-            <div>
-                <h1 class="titulo">Cadastro de Usuário</h1>
-                <p class="infos">Preencha o formulário abaixo para se cadastrar.</p>
+            <div class="infos">
+                <h1>Cadastro de Usuário</h1>
+                <p>Preencha o formulário abaixo para se cadastrar.</p>
             </div>
 
-            <div>
+            <div class="forms">
                 <form class="formulario">
-                    <label class="formLabel" for="nome">Nome:</label>
-                    <input class="formInput" id="nome" name="nome" type="text">
+
+                    <div class="formGroup">
+                        <label class="formLabel" for="nome">Nome:</label>
+                        <input class="formInput" id="nome" name="nome" type="text">
+                    </div>
+                    
+                    <br>
+                    
+                    <div class="formGroup">
+                        <label class="formLabel" for="email">E-mail:</label>
+                        <input class="formInput" id="email" name="email" type="text">
+                    </div>
+                    
+                    <br>
+
+                    <div class="formGroup">
+                        <label class="formLabel" for="senha">Senha:</label>
+                        <input class="formInput" id="senha" name="senha" type="text">
+                    </div>
+
+                    <br>
+                    <div class="formGroup">
+                        <label class="formLabel" for="confirmarSenha">Confirmar senha:</label>
+                        <input class="formInput" id="confirmarSenha" name="confirmarSenha" type="text">
+                    </div>
 
                     <br>
 
-                    <!--<label class="formLabel" for="email">E-mail:</label>
-                    <input class="formInput" id="email" name="email" type="text">
+                    <div class="formGroup">
+                        <label class="formLabel" for="cidade">Cidade:</label>
+                        <input class="formInput" id="cidade" name="cidade" type="text">
+                    </div>
 
                     <br>
 
-                    <label class="formLabel" for="senha">Senha:</label>
-                    <input class="formInput" id="senha" name="senha" type="text">
+                    <div class="formGroup">
+                        <label class="formLabel" for="telefone">Telefone:</label>
+                        <input class="formInput" id="telefone" name="telefone" type="text">
+                    </div>
 
                     <br>
 
-                    <label class="formLabel" for="confirmarSenha">Confirmar senha:</label>
-                    <input class="formInput" id="confirmarSenha" name="confirmarSenha" type="text">
+                    <div class="btnsGroups">
+                        <button class="btnLimpar" type="reset">Limpar</button>
 
-                    <br>
-
-                    <label class="formLabel" for="cidade">Cidade:</label>
-                    <input class="formInput" id="cidade" name="cidade" type="text">
-
-                    <br>
-
-                    <label class="formLabel" for="nome">Nome:</label>
-                    <input class="formInput" id="nome" name="nome" type="text"> -->
+                        <button class="btnCadastrar" type="submit">Cadastrar</button>
+                    </div>
+                    
                 </form>
             </div>
         </section>
